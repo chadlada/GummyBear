@@ -1,0 +1,15 @@
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/NumberGuesser.deps.json
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/NumberGuesser.runtimeconfig.json
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/NumberGuesser.runtimeconfig.dev.json
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/NumberGuesser.dll
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/ref/NumberGuesser.dll
+/Users/chadlada/Desktop/sdg/NumberGuesser/bin/Debug/netcoreapp5.0/NumberGuesser.pdb
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.csproj.AssemblyReference.cache
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.AssemblyInfoInputs.cache
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.AssemblyInfo.cs
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.csproj.CoreCompileInputs.cache
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.dll
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/ref/NumberGuesser.dll
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.pdb
+/Users/chadlada/Desktop/sdg/NumberGuesser/obj/Debug/netcoreapp5.0/NumberGuesser.genruntimeconfig.cache
