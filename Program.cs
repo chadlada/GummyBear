@@ -15,7 +15,7 @@ namespace NumberGuesser
             ShowGreeting();
             GuessNumber(min, max);
 
-            // HELLO???
+            // HELLO????
 
         }
         static void ShowGreeting()
