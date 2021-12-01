@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 
 namespace NumberGuesser
 {
@@ -13,6 +15,8 @@ namespace NumberGuesser
             ShowGreeting();
             GuessNumber(min, max);
 
+
+
         }
         static void ShowGreeting()
         {
@@ -24,6 +28,9 @@ namespace NumberGuesser
 
             Console.ReadLine();
         }
+
+
+
         static void GuessNumber(int low, int high)
         {
             var mid = (low + high) / 2;
@@ -37,14 +44,17 @@ namespace NumberGuesser
             else if (result == "l")
             {
                 var newMax = mid;
-                GuessNumber(newMax, low);
-                // -if lower, then set guessed number as new maximum, keep minimum, and determine new middle for next guess.
+                Console.WriteLine("mid " + mid);
+                GuessNumber(low, newMax);
+                // -if lower, then set guessed number as new maximum, keep minimum, and determine new middle for next guess. 
+                // (max512 min0)
             }
             else if (result == "h")
             {
                 var newMin = mid;
                 GuessNumber(newMin, high);
-                // -if higher, then set guessed number as new minimum, keep maximum, and determine new middle for next guess.
+                // -if higher, then set guessed number as new minimum, keep maximum, and determine new middle for next guess. 
+                // (Max1024 min512)
             }
             else
             {
