@@ -29,6 +29,7 @@ namespace NumberGuesser
             Console.ReadLine();
         }
 
+
         static void GuessNumber(int low, int high)
         {
             var mid = (low + high) / 2;
