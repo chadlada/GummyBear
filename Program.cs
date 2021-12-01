@@ -30,6 +30,7 @@ namespace NumberGuesser
         }
 
 
+
         static void GuessNumber(int low, int high)
         {
             var mid = (low + high) / 2;
