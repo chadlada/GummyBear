@@ -15,9 +15,10 @@ namespace NumberGuesser
             ShowGreeting();
             GuessNumber(min, max);
 
-            // HELLO????
 
         }
+
+
         static void ShowGreeting()
         {
             Console.WriteLine("----------------------------------------");
@@ -25,26 +26,23 @@ namespace NumberGuesser
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("I will use my black magic to determine a number between 1 and 1024..Think of it in your head. Don't tell me. then hit enter");
             Console.WriteLine();
-
             Console.ReadLine();
         }
-
-
 
         static void GuessNumber(int low, int high)
         {
             var mid = (low + high) / 2;
-            Console.WriteLine($"Is your number {mid}? Type 'y' for yes, 'l' for lower, or 'h' for higher.");
+            Console.WriteLine($"Is your number {mid}? \nType 'y' for yes, 'l' for lower, or 'h' for higher.");
             var result = Console.ReadLine();
 
             if (result == "y")
             {
-                Console.WriteLine("You got it!");
+                Console.WriteLine("I got it!");
             }
             else if (result == "l")
             {
                 var newMax = mid;
-                Console.WriteLine("mid " + mid);
+                // Console.WriteLine("mid " + mid);
                 GuessNumber(low, newMax);
                 // -if lower, then set guessed number as new maximum, keep minimum, and determine new middle for next guess. 
                 // (max512 min0)
